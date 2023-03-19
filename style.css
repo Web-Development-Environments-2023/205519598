@@ -63,7 +63,8 @@ p {
   margin: 10px; 
 }
 
-#playlist {
-  align-items: center; 
+#youtube {
+  text-align: center;
+  position: relative;
 }
 
