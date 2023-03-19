@@ -37,13 +37,22 @@ h2:before {
   content:" ";
   display: block;
   height: 2px;
-  width: 130px;
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 0;
   background: teal;}
 
-
+h2:before {
+  content:" ";
+  height: 2px;
+  width: 50%;
+  background: teal;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
 
 p {
   text-align: center;
