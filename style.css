@@ -26,27 +26,24 @@
 
 
 h2 {
-  text-align: center;
   position: relative;
-    margin: 0 20px;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
 }
 
-h2:before, h2:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  width: 50%;
-  height: 3px;
-  background-color: teal;
-}
 
 h2:before {
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
   left: 0;
-}
+  background: teal;}
 
-h2:after {
-  right: 0;
-}
+
 
 p {
   text-align: center;
