@@ -33,9 +33,7 @@
 #about:before, #about:after {
   content: '';
   position: absolute;
-  top: 50%;
-  width: 50%;
-  height: 1px;
+  height: 3px;
   background-color: teal;
 }
 
@@ -76,7 +74,7 @@
 }
 
 #images img {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   margin: 10px; 
 }
