@@ -40,11 +40,11 @@
 }
 
 #about:before {
-  left: 5;
+  left: 0;
 }
 
 #about:after {
-  right: 5;
+  right: 0;
 }
 
 #photos {
