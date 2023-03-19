@@ -6,27 +6,8 @@
 	background: white;
 }
 
-nav {
+#nav {
   background-color: teal;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-nav li {
-  margin: 0 1rem;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
