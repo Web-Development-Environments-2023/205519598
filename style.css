@@ -50,3 +50,12 @@
 #about h2 {
   margin-bottom: 30px;
 }
+
+#photos {
+  text-align: center;
+}
+
+#photos img {
+  max-width: 100%;
+  height: auto;
+}
