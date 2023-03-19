@@ -67,8 +67,6 @@ p {
 }
 
 #playlist {
-  display: flex; 
-  justify-content: center; 
   align-items: center; 
 }
 
