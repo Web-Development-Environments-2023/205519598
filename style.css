@@ -40,11 +40,11 @@ h2:before, h2:after {
 }
 
 h2:before {
-  left: 0;
+  left: 5;
 }
 
 h2:after {
-  right: 0;
+  right: 2;
 }
 
 p {
