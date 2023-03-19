@@ -47,12 +47,41 @@
   right: 0;
 }
 
+#about {
+  text-align: center;
+  position: relative;
+}
 
 #photos {
   text-align: center;
+  position: relative;
 }
 
-#photos img {
-  max-width: 100%;
-  height: auto;
+#photos:before, #about:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 1px;
+  background-color: teal;
+}
+
+#photos:before {
+  left: 0;
+}
+
+#photos:after {
+  right: 0;
+}
+
+#images {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#images img {
+  width: 200px; 
+  height: 200px; 
+  margin: 10px; 
 }
