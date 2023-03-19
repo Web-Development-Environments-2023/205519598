@@ -73,7 +73,7 @@ p {
 }
 
 #youtube {
-  text-align: center;
-  position: relative;
+  display: block;
+  margin: 0 auto;
 }
 
