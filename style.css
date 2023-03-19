@@ -25,3 +25,28 @@
 
 
 
+#about {
+  text-align: center;
+  position: relative;
+}
+
+#about:before, #about:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 1px;
+  background-color: teal;
+}
+
+#about:before {
+  left: 0;
+}
+
+#about:after {
+  right: 0;
+}
+
+#about h2 {
+  margin-bottom: 30px;
+}
