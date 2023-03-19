@@ -25,49 +25,29 @@
 
 
 
-#about {
+h2 {
   text-align: center;
   position: relative;
 }
 
-#about:before, #about:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  width: 20%;
-  height: 3px;
-  background-color: teal;
-}
-
-#about:before {
-  left: 0;
-}
-
-#about:after {
-  right: 0;
-}
-
-#photos {
-  text-align: center;
-  position: relative;
-}
-
-#photos:before, #photos:after {
+h2:before, h2:after {
   content: '';
   position: absolute;
   top: 50%;
   width: 50%;
-  height: 7px;
+  height: 3px;
   background-color: teal;
 }
 
-#photos:before {
+h2:before {
   left: 0;
 }
 
-#photos:after {
+h2:after {
   right: 0;
 }
+
+
 
 #images {
   display: flex; 
