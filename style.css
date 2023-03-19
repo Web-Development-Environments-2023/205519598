@@ -43,7 +43,7 @@ h2:before {
   left: 0;
   background: teal;}
 
-h2:before {
+h2:after {
   content:" ";
   height: 2px;
   width: 50%;
