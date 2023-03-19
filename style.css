@@ -37,7 +37,7 @@ h2:before {
   content:" ";
   display: block;
   height: 2px;
-  width: 50%;
+  width: 500px;
   position: absolute;
   top: 50%;
   left: 0;
@@ -46,7 +46,7 @@ h2:before {
 h2:after {
   content:" ";
   height: 2px;
-  width: 50%;
+  width: 500px;
   background: teal;
   display: block;
   position: absolute;
