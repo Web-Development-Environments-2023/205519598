@@ -77,3 +77,10 @@ iframe {
    margin: 0 auto;
 }
 
+.fb-like {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
