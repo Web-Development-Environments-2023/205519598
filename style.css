@@ -1,29 +1,33 @@
+
+
 #menu {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 35px;
+  background-color: #333;
+  z-index: 9999;
+}
+
+#menu ul {
+  list-style: none;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: teal;
-  list-style-type: none;
-  padding: 0;
+  justify-content: center;
   margin: 0;
+  padding: 0;
 }
-
-#menu li {
-  margin: 0 10px;
-}
-
 
 #menu a {
+  display: block;
+  color: #fff;
+  padding: 15px;
   text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
 }
 
-
+#menu a:hover {
+  background-color: #555;
+}
 
 h2 {
   position: relative;
